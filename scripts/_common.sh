@@ -6,7 +6,7 @@
 
 nodejs_version=20
 
-n8n_version=1.17.1
+n8n_version=1.27.2
 
 timezone="$(cat /etc/timezone)"
 main_domain=$(cat /etc/yunohost/current_host)

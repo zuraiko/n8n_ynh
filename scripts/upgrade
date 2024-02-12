@@ -44,7 +44,7 @@ fi
 
 # If language doesn't exist, create it
 if [ -z "${language:-}" ]; then
-	language="en"
+	language="fr"
 	ynh_app_setting_set --app=$app --key=language --value=$language
 fi
 
